@@ -43,3 +43,16 @@ def test_add():
 def test_subtract():
     value = subtract(1,5)
     assert value == -4
+
+#9
+def test_positive_time_negative():
+    value = multiply(5,-5)
+    assert value == -25
+#10
+def test_zero_divothervalue():
+    value = divide(0,2)
+    assert value == 0
+#11
+def test_multiply_by_zero():
+    value = multiply(5,0)
+    assert value == 0
