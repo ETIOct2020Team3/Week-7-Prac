@@ -1,5 +1,5 @@
 over10Error = "Input more than 10"
-divisionByZero = "Error division by zero!"
+divisionByZero = "ZeroDivideError"
 
 def add(*arg):
     if(len(arg) > 10):
