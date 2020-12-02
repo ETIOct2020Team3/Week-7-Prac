@@ -22,7 +22,7 @@ def test_over_ten_variables():
 #2
 def test_div():
     value = divide(1,2)
-    assert value == 1
+    assert value == 0.5
 #3
 def test_multiply():
     value = multiply(1,3)
