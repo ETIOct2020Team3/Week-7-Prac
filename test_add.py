@@ -14,7 +14,7 @@ def test_add_negative_negative():
     assert value == -5
 def test_div():
     value = divide(10,2)
-    assert value ==5
+    assert value == 10
 
 def test_over_ten_variables():#add comment
     value = add(1,2,3,4,5,6,7,8,9,10,11, 12)
