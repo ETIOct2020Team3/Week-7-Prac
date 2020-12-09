@@ -17,6 +17,6 @@ jobs:
     - name: send default message
       uses: appleboy/telegram-action@master
       with:
-        to: ${{ secrets.TELEGRAM_TO }}
+        to: ${{ secrets.TELEHARITH }}
         token: ${{ secrets.TELETOKEN }
         
