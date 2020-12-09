@@ -46,4 +46,4 @@ def test_zero_divothervalue():
 11
 def test_multiply_by_zero():
     value = multiply(5,0)
-    assert value == 0
+    assert value == 1
