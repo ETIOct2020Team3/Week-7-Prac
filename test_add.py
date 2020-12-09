@@ -2,16 +2,7 @@ from fn import *
 import pytest
 
 
-# @pytest.mark.parametrize("a,b,result",[(1,2,3), (2,4,6)])
-# def test_add(a,b,result):
-#     value = add(a,b)
-#     assert value == result
-# def test_add_negative_positive():
-#     value = add(-1,2,3)
-#     assert value == 4
-# def test_add_negative_negative():
-#     value = add(-1,-2)
-#     assert value == -5
+
 def test_div():
     value = divide(10,2)
     assert value == 5
