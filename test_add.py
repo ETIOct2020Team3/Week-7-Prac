@@ -39,11 +39,11 @@ import pytest
 # def test_positive_time_negative():
 #     value = multiply(5,-5)
 #     assert value == -25
-# #10
-# def test_zero_divothervalue():
-#     value = divide(0,2)
-#     assert value == 0
-#11
+#10
+def test_zero_divothervalue():
+    value = divide(0,2)
+    assert value == 0
+11
 def test_multiply_by_zero():
     value = multiply(5,0)
     assert value == 0
