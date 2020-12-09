@@ -12,7 +12,7 @@ jobs:
       with:
         to: ${{ secrets.TELEHARITH }}
         token: ${{ secrets.TELETOKEN }}
-        args: hello 
+        args: The ${{ github.event_name }} event triggered first step.
         
 
         
