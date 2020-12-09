@@ -12,11 +12,6 @@ jobs:
       with:
         to: ${{ secrets.TELEGRAM_TO }}
         token: ${{ secrets.TELETOKEN }}
-        args: The ${{ github.event_name }} event triggered first step.
         
-    - name: send default message
-      uses: appleboy/telegram-action@master
-      with:
-        to: ${{ secrets.TELEHARITH }}
-        token: ${{ secrets.TELETOKEN }
+
         
